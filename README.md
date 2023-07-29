@@ -31,7 +31,7 @@ Run the code as follows.
 1. **Laconic's serial_rule_compression.**
 
    ## Compile
-   We have implemented the serial versions of Laconic and Re-Pair algorithms based on C++ in the directory "Laconic/Re-Pair&Laconic_serial/rule_compress/compress_op".Additionally, we used pybind11 to wrap the C++ code into Python modules.
+   We have implemented the serial versions of Laconic and Re-Pair algorithms based on C++ in the directory "Laconic/Re-Pair&Laconic_serial".Additionally, we used pybind11 to wrap the C++ code into Python modules.
    
    Run
    
@@ -43,7 +43,7 @@ Run the code as follows.
    to install dependencies and package rule-based compression into a module.
 
    ## Run
-   We have placed the implementations of Laconic's serial rule compression and Re-Pair compression in the "Laconic/Re-Pair&Laconic_serial/compression" directory. You can execute the compression and monitor peak memory usage separately by running either
+   We have placed the implementations of Laconic's serial rule compression and Re-Pair compression in the "compression" directory. You can execute the compression and monitor peak memory usage separately by running either
 
    ```shell
    monitor_Re-Pair_mem.sh
@@ -83,14 +83,14 @@ Run the code as follows.
 
 3. **Laconic's encoding_compression and graph analytic tasks.** 
 
-   In the "Laconic/Encoding&Apps" directory, we have implemented Laconic's encoding compression, where the reordering submodule is accomplished through "bfs_reorder.py". After reordering, Laconic's rule-based compression results achieve significant improvements in encoding compression.
+   In the "Encoding&Apps" directory, we have implemented Laconic's encoding compression, where the reordering submodule is accomplished through "bfs_reorder.py". After reordering, Laconic's rule-based compression results achieve significant improvements in encoding compression.
 
    In the "Encoding&Apps" directory, executing the following commands to complete the reordering submodule.
    ```shell
    python3 bfs_reorder.py
    python3 gen_csr.py
    ```
-   Laconic's encoding compression module is built on top of Ligra+. As a result, Laconic's compressed results can be seamlessly utilized by Ligra for computations. To compile Ligra+ in the "/Encoding&Apps/ligra/apps" directory, execute
+   Laconic's encoding compression module is built on top of Ligra+. As a result, Laconic's compressed results can be seamlessly utilized by Ligra for computations. To compile Ligra+ in the "ligra/apps" directory, execute
 
    ```
    make -j  -openmp=1
