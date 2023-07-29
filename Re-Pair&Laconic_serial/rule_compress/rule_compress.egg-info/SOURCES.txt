@@ -1,0 +1,12 @@
+setup.py
+/home/xuqian/Laconic/Re-Pair&Laconic_serial/rule_compress/compress_op/function.cpp
+/home/xuqian/Laconic/Re-Pair&Laconic_serial/rule_compress/compress_op/compress/array.cc
+/home/xuqian/Laconic/Re-Pair&Laconic_serial/rule_compress/compress_op/compress/basics.cc
+/home/xuqian/Laconic/Re-Pair&Laconic_serial/rule_compress/compress_op/compress/hash.cc
+/home/xuqian/Laconic/Re-Pair&Laconic_serial/rule_compress/compress_op/compress/heap.cc
+/home/xuqian/Laconic/Re-Pair&Laconic_serial/rule_compress/compress_op/compress/records.cc
+rule_compress.egg-info/PKG-INFO
+rule_compress.egg-info/SOURCES.txt
+rule_compress.egg-info/dependency_links.txt
+rule_compress.egg-info/requires.txt
+rule_compress.egg-info/top_level.txt
