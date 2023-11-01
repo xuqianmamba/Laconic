@@ -1,4 +1,4 @@
-Laconic: Enabling Efficient Graph Analytics without Decompression in Memory Constrained Environment
+Laconic: Improving Graph Compression for Efficient Resource-Constrained Graph Analytics
 ======================
 
 ## Introduction
