@@ -1,6 +1,9 @@
 Laconic: Improving Graph Compression for Efficient Resource-Constrained Graph Analytics
 ======================
 
+## Datasets
+We have placed the example dataset: uk-2007-05 in the /benchmarks directory. Other datasets mentioned in the paper can be downloaded from https://webgraph.di.unimi.it/ and https://snap.stanford.edu/data/.
+
 ## Introduction
 Laconic, a novel hybrid-based graph processing solution that overcomes the challenges of restricted memory and impractical compression time faced by existing approaches. 
 
