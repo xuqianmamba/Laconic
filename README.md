@@ -15,7 +15,7 @@ This directory contains code of the three modules implemented in Laconic. The co
 It contains scripts that allow you to compress data from scratch and perform manipulation and analytic tasks. 
 
 ## Organization of Supplementary Materials
-- **CompressGraph&Lacibuc_serial**: `The rule compression module discussed in the Laconic paper`.
+- **Re-Pair&Lacibuc_serial**: `The rule compression module discussed in the Laconic paper`.
 - **Encoding&Apps**: `The encoding compression module and applications discussed in the paper`.
 - **Laconic_parallel**: `The implementation of the serial algorithm mentioned in the paper based on OpenMP`.
 - **Results**: Contains the experimental results of the original dataset and various metrics mentioned in the paper, including 1)Compression results of the rule and encoding stages: `origin/`, 2)Memory and time overhead during rule compression, encoding compression, and execution of computational tasks: `peak_memory`.
