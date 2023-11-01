@@ -15,7 +15,7 @@ This directory contains code of the three modules implemented in Laconic. The co
 It contains scripts that allow you to compress data from scratch and perform manipulation and analytic tasks. 
 
 ## Organization of Supplementary Materials
-- **Re-Pair&Lacibuc_serial**: `The rule compression module discussed in the Laconic paper`.
+- **CompressGraph&Lacibuc_serial**: `The rule compression module discussed in the Laconic paper`.
 - **Encoding&Apps**: `The encoding compression module and applications discussed in the paper`.
 - **Laconic_parallel**: `The implementation of the serial algorithm mentioned in the paper based on OpenMP`.
 - **Results**: Contains the experimental results of the original dataset and various metrics mentioned in the paper, including 1)Compression results of the rule and encoding stages: `origin/`, 2)Memory and time overhead during rule compression, encoding compression, and execution of computational tasks: `peak_memory`.
@@ -34,7 +34,7 @@ Run the code as follows.
 1. **Laconic's serial_rule_compression.**
 
    ## Compile
-   We have implemented the serial versions of Laconic and Re-Pair algorithms based on C++ in the directory "Laconic/Re-Pair&Laconic_serial".Additionally, we used pybind11 to wrap the C++ code into Python modules.
+   We have implemented the serial versions of Laconic and CompressGraph algorithms based on C++ in the directory "Laconic/Re-Pair&Laconic_serial".Additionally, we used pybind11 to wrap the C++ code into Python modules.
    
    Run
    
@@ -46,7 +46,7 @@ Run the code as follows.
    to install dependencies and package rule-based compression into a module.
 
    ## Run
-   We have placed the implementations of Laconic's serial rule compression and Re-Pair compression in the "compression" directory. You can execute the compression and monitor peak memory usage separately by running either
+   We have placed the implementations of Laconic's serial rule compression and CompressGraph compression in the "compression" directory. You can execute the compression and monitor peak memory usage separately by running either
 
    ```shell
    monitor_Re-Pair_mem.sh
